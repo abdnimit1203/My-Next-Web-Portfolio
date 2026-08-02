@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[[redirects]]
+  from = "/googleb0a76c6221f585d1.html"
+  to = "/googleb0a76c6221f585d1.html"
+  status = 200
+  force = true
