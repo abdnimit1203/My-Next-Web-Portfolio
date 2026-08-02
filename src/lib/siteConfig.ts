@@ -16,6 +16,6 @@ export const siteConfig = {
     "Node.js",
     "portfolio",
   ],
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://abdullah-dev-portfolio.vercel.app",
-  ogImage: "/hero-photo.jpg",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://abdullah-ibne-ali.netlify.app",
+  ogImage: "/og-image.png",
 };
