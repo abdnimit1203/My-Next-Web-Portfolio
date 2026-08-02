@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     images: [siteConfig.ogImage],
   },
   verification: {
-    google: "googleb0a76c6221f585d1",
+    google: ["googleb0a76c6221f585d1", "b0a76c6221f585d1"],
   },
 };
 
