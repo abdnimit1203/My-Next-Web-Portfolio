@@ -68,6 +68,7 @@ export function ResourceEditor({ resource, fields, title }: { resource: string; 
       const payload = {
         ...form,
         featured: form.featured === undefined ? false : Boolean(form.featured),
+        active: form.active === undefined ? true : Boolean(form.active),
       };
 
       if (editingId) {
@@ -86,6 +87,7 @@ export function ResourceEditor({ resource, fields, title }: { resource: string; 
     setForm({
       ...item,
       featured: Boolean(item.featured),
+      active: item.active === undefined ? true : Boolean(item.active),
     });
     setEditingId(item._id ?? null);
     window.scrollTo({ top: 0, behavior: "smooth" });

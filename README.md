@@ -4,7 +4,7 @@
 
 A modern, high-performance **Full-Stack Developer Portfolio & Admin Dashboard** built with **Next.js 16 (App Router & Turbopack)**, **TypeScript**, **Tailwind CSS**, and **Framer Motion**, backed by a RESTful Express + MongoDB API.
 
-[![Netlify Deploy Status](https://img.shields.io/badge/Netlify-Live%20Site-00C7B7?style=for-the-badge&logo=netlify)](https://netlify.com)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/03ba9c09-4e7a-4f96-97d4-405807059b95/deploy-status)](https://app.netlify.com/projects/abdullah-ibne-ali/deploys)
 [![Next.js 16](https://img.shields.io/badge/Next.js-16%20App%20Router-black?style=for-the-badge&logo=nextdotjs)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-06B6D4?style=for-the-badge&logo=tailwindcss)](https://tailwindcss.com/)

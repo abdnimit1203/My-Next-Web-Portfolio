@@ -17,6 +17,7 @@ export default function ProjectsPanel() {
         { name: "demoEmail", label: "Demo Email (optional)", type: "text" },
         { name: "demoPassword", label: "Demo Password (optional)", type: "text" },
         { name: "featured", label: "Mark as Featured Project", type: "boolean" },
+        { name: "active", label: "Show on Public Website (Active Status)", type: "boolean" },
         { name: "order", label: "Display Order Priority", type: "number" },
       ]}
     />

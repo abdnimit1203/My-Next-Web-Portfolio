@@ -35,6 +35,7 @@ export interface Project {
   demoEmail?: string;
   demoPassword?: string;
   featured: boolean;
+  active?: boolean;
   order: number;
 }
 

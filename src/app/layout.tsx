@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Space_Grotesk, Orbitron } from "next/font/google";
 import { siteConfig } from "@/lib/siteConfig";
+import { DevCursor } from "@/components/DevCursor";
 import "./globals.css";
 
 const spaceGrotesk = Space_Grotesk({
@@ -74,6 +75,7 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd).replace(/</g, "\\u003c") }}
         />
+        <DevCursor />
         {children}
       </body>
     </html>

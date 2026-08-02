@@ -11,7 +11,8 @@ export function Projects({ projects }: { projects: Project[] }) {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
   const [filter, setFilter] = useState<"all" | "featured">("all");
 
-  const visibleProjects = filter === "featured" ? projects.filter((p) => Boolean(p.featured)) : projects;
+  const activeProjects = projects.filter((p) => p.active !== false);
+  const visibleProjects = filter === "featured" ? activeProjects.filter((p) => Boolean(p.featured)) : activeProjects;
 
   return (
     <section id="projects" className="relative mx-auto max-w-6xl px-6 py-20">
@@ -27,7 +28,7 @@ export function Projects({ projects }: { projects: Project[] }) {
               : "bg-slate-900/80 text-slate-400 border border-white/10 hover:text-white"
           }`}
         >
-          All Work ({projects.length})
+          All Work ({activeProjects.length})
         </button>
         <button
           onClick={() => setFilter("featured")}
@@ -37,7 +38,7 @@ export function Projects({ projects }: { projects: Project[] }) {
               : "bg-slate-900/80 text-slate-400 border border-white/10 hover:text-white"
           }`}
         >
-          <FiStar className="text-amber-400 fill-amber-400" /> Featured Only ({projects.filter((p) => Boolean(p.featured)).length})
+          <FiStar className="text-amber-400 fill-amber-400" /> Featured Only ({activeProjects.filter((p) => Boolean(p.featured)).length})
         </button>
       </div>
 

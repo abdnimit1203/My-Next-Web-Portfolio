@@ -9,7 +9,7 @@ const SERVICES = [
     icon: FiCode,
     title: "Full-Stack Web Development",
     description:
-      "Building fast, responsive, and modern web applications with clean architecture using React, Next.js, Node.js, Express, and MongoDB.",
+      "Building fast, responsive, and scalable web applications with modern architecture using Next.js 16, React, Node.js, Express, and MongoDB.",
     skills: ["React", "Next.js 16", "Node.js", "Express", "MongoDB Atlas"],
   },
   {
@@ -28,10 +28,10 @@ const SERVICES = [
   },
   {
     icon: FiLayout,
-    title: "UI/UX & Frontend Architecture",
+    title: "API Integration & Performance",
     description:
-      "Designing intuitive, state-of-the-art user interfaces with glassmorphism aesthetics, dynamic micro-animations, and Tailwind CSS.",
-    skills: ["Tailwind CSS", "Framer Motion", "Responsive Layouts"],
+      "Designing robust RESTful API architecture, third-party service integrations, database query optimization, and Core Web Vitals performance.",
+    skills: ["REST APIs", "Node.js", "MongoDB Atlas", "Next.js 16"],
   },
 ];
 
