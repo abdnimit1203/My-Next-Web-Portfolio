@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
 
-## Getting Started
+# 🚀 Abdullah Ibne Ali — Developer Portfolio
 
-First, run the development server:
+A modern, high-performance **Full-Stack Developer Portfolio & Admin Dashboard** built with **Next.js 16 (App Router & Turbopack)**, **TypeScript**, **Tailwind CSS**, and **Framer Motion**, backed by a RESTful Express + MongoDB API.
 
+[![Netlify Deploy Status](https://img.shields.io/badge/Netlify-Live%20Site-00C7B7?style=for-the-badge&logo=netlify)](https://netlify.com)
+[![Next.js 16](https://img.shields.io/badge/Next.js-16%20App%20Router-black?style=for-the-badge&logo=nextdotjs)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-06B6D4?style=for-the-badge&logo=tailwindcss)](https://tailwindcss.com/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?style=for-the-badge&logo=mongodb)](https://www.mongodb.com/atlas)
+
+</div>
+
+---
+
+## ✨ Features
+
+- 💎 **Modern Glassmorphism UI**: High-end Navy Slate theme with vibrant neon radial glows, smooth Framer Motion entrance reveals, and dynamic hover micro-interactions.
+- ⚡ **Next.js 16 + Turbopack**: Blazing-fast page loads, optimized font/image rendering, and server side rendering.
+- 🛠️ **Built-in Admin Dashboard (`/admin`)**: Edit your Hero bio, Social links, Skills, Projects, and Testimonials live without redeploying code.
+- 🖼️ **Client-Side Image Compression & Upload**: Automatic image optimization before uploading to ImgBB via backend proxy.
+- 💼 **Interactive Project Showcase**: Filter projects by tech stack, view live modal galleries, and inspect GitHub/demo links.
+- 🔍 **SEO & Accessibility**: Full Next.js Metadata API, JSON-LD `Person` Schema, `sitemap.ts`, `robots.txt`, and OpenGraph social cards.
+
+---
+
+## 🛠️ Tech Stack
+
+### **Frontend App**
+* **Framework:** Next.js 16 (App Router, Turbopack)
+* **Language:** TypeScript
+* **Styling:** Tailwind CSS v4, Glassmorphism Design System
+* **Animations:** Framer Motion, GSAP
+* **Icons:** React Icons (`react-icons`)
+* **Deployment:** Netlify
+
+### **Backend API**
+* **Framework:** Express.js + TypeScript
+* **Database:** MongoDB Atlas (Mongoose ODM)
+* **Authentication:** Single-Admin JWT (Bearer Tokens)
+* **Deployment:** Vercel Serverless
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone & Install Dependencies
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/abdnimit1203/My-Web-Portfolio.git
+cd My-Web-Portfolio
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Configure Environment Variables
+Create a `.env.local` file in the root directory:
+```env
+NEXT_PUBLIC_API_URL=https://portfolio-api-nextjs-eight.vercel.app/api
+NEXT_PUBLIC_EMAILJS_SERVICE_ID=your_service_id
+NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=your_template_id
+NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=your_public_key
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 3. Run Development Server
+```bash
+npm run dev
+```
+Open [http://localhost:3000](http://localhost:3000) to view the application in your browser.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛡️ Admin Dashboard Access
+To log into the live dashboard:
+1. Navigate to `/admin/login`
+2. Authenticate with admin credentials
+3. Access real-time management modules at `/admin/dashboard`
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<div align="center">
+  <sub>Designed & Developed by <b>Abdullah Ibne Ali</b></sub>
+</div>
