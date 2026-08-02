@@ -5,7 +5,7 @@ export function Footer({ socials }: { socials: SocialLink[] }) {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="border-t border-border px-6 py-10">
+    <footer className="border-t border-white/10 px-6 pt-12 pb-28 sm:pb-32">
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-6 md:flex-row">
         <div className="text-center md:text-left">
           <p className="font-display font-semibold">Abdullah Ibne Ali</p>
