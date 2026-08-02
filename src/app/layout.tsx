@@ -40,6 +40,9 @@ export const metadata: Metadata = {
     description: siteConfig.description,
     images: [siteConfig.ogImage],
   },
+  verification: {
+    google: "googleb0a76c6221f585d1",
+  },
 };
 
 const personJsonLd = {
